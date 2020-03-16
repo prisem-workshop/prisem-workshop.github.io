@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> {{ site.title }}: {{ site.name }} </title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/foundation-icons.css" />
+    <link rel="stylesheet" href="css/conf.css">
+    <script language="JavaScript">
+        function mail() {
+            var username = "beap20";
+            var hostname = "easychair.org";
+            var linktext = username + "@" + hostname;
+            document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+        }
+    </script>
+</head>
+
+<body>
+    <nav class="row top-bar" data-topbar style="margin-bottom:25px;">
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="index.html"><i class="fi-home"></i>&nbsp;&nbsp; {{ site.title}} </a></h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <ul class="right">
+                <li class="active"><a href="paper.html"><i class="fi-page-edit"></i>&nbsp;&nbsp;Call for Papers</a></li>
+                <li class="active"><a href="program.html"><i class="fi-projection-screen"></i>&nbsp;&nbsp;Program</a>
+                </li>
+                <li class="active"><a href="organization.html"><i class="fi-torsos-all"></i>&nbsp;&nbsp;Organization</a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+
+
+    <!-- <div class="row">
+
+        <div class="large-4 medium-7 columns">
+            <img src="img/AIRE_2.png" alt="AIRE logo" />
+        </div>
+
+        <div class="large-8 medium-17 columns">
+            <h2>{{site.name}} ({{site.title}})</h2>
+            <br class="show-for-large-only">
+        </div>
+    </div> -->
+
+
+
+    <div class="row">
+        <div class="large-4 columns">
+            <a class="twitter-timeline" data-lang="en" data-link-color="#FAB81E" data-height="1000"
+                href="https://twitter.com/beap_ws">Tweets by BEAP_WS</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="large-8 columns">
+
+            {{ content }}
+
+            <p>{{site.title}} is co-located with {{ site.description }} </p>
+
+            <h3>Contact</h3>
+            If you have any questions about {{site.title}} please contact us via
+            <script type="text/javascript">mail();</script>
+            </p>
+
+        </div>
+    </div>
+    <hr>
+    <footer>
+        &copy; 2020 {{site.name}}. All rights reserved.
+    </footer>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+
+</html>
