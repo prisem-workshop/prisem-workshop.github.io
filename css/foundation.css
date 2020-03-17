@@ -2712,7 +2712,7 @@ i {
   line-height: inherit; }
 
 strong,
-b {
+b, .b {
   font-weight: bold;
   line-height: inherit; }
 
