@@ -1,3 +1,18 @@
+@media web{
+	.print-only{
+		display:none !important;
+	}
+}
+
+@media print{
+	div#twitter-feed{
+	display:none !important;
+	}
+	nav{
+		display:none !important;
+	}
+}
+
 .top-bar {
   background-color: #a44363;
 }
@@ -30,3 +45,5 @@ footer {
 .leftpane {
 	background-color: #cccccc;
 }
+
+
