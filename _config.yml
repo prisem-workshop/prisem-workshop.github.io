@@ -1,8 +1,8 @@
 theme: jekyll-theme-minimal
-title: PriSEM'20
-name: First International Workshop on Privacy and Security in Enterprise Modeling 
-description: <a href="http://www.edoc2020.org/" target="_blank">24nd IEEE International Enterprise Distributed Object Computing Conference, IEEE EDOC 2020</a> in Eindhoven October 5-8, 2020.
+title: PriSEM'21
+name: Second International Workshop on Privacy and Security in Enterprise Modeling 
+description: <a href="http://www.edoc2020.org/" target="_blank">25nd IEEE International Enterprise Distributed Object Computing Conference, IEEE EDOC 2021</a> in Gold Coast, Australia, 25-29 October 2021
 logo: /assets/img/profile.jpeg
 twitter_username: PriSEM_WS
-email: nicolas.herbaut@univ-paris1.fr, blagovesta.pirelli at epfl.ch
+email: irina.rychkova@univ-paris1.fr, nicolas.herbaut@univ-paris1.fr, blagovesta.pirelli at epfl.ch
 future: true
